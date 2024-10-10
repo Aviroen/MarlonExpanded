@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      //Marlon's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{Marlon}}": "{{i18n:Marlon.Gifts.Loved}}/BasiliskPaw IceRod MagicQuiver 244 413 437 439 680 773/{{i18n:Marlon.Gifts.Liked}}/205 287 288 303 346 348 422/{{i18n:Marlon.Gifts.Disliked}}/-81/{{i18n:Marlon.Gifts.Hated}}/-80 233 283/{{i18n:Marlon.Gifts.Neutral}}/184 186 286 424 426 436 438 420 -28 803/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  //SVE DATA
+  "Marlon.CharacterDialogue.001": "Hmmm?$0#$e#Oh, hello.$0",
+  "Marlon.CharacterDialogue.002": "Hmm... I sense monsters on the other side of the island.$0",
+  "Marlon.CharacterDialogue.003": "I appreciated the change in scenery.$0",
+  "Marlon.CharacterDialogue.004": "The First Slash guild protects these islands. They're distinguished by their blue cloaks and use of long spears.$0",
+  "Marlon.CharacterDialogue.005": "The magic barrier is holding strong here on this remote beach.$0",
+  "Marlon.CharacterDialogue.006": "Coconut water will do fine, Gus. Need to keep my senses sharp.$0",
+  "Marlon.CharacterDialogue.007": "Hmm. Festivities on an island inhabited by monsters...$0#$e#I trust you'll assist in keeping watch with me, @.$0",
+  "Marlon.CharacterDialogue.008": "%Marlon is unresponsive.",
+  "Marlon.CharacterDialogue.009": "Unfortunate to see the snow melt away as fast as it did.$0#$e#Need to make my rounds at the mountain. There's a slight chance monsters could be thawing out.",
+  "Marlon.CharacterDialogue.010": "Egg festival is tomorrow.$0#$e#Hmm. I wonder what food and drink Gus is preparing.$1",
+  "Marlon.CharacterDialogue.011": "Hmm? What's that?$0#$e#Yes, I'm aware the flower festival is tomorrow. My attendance was requested by Mayor Lewis.$0",
+  "Marlon.CharacterDialogue.012": "It's getting hotter...$2#$e#Spring is coming to an end soon.$0",
+  //unused dialogue
+  "Marlon.CharacterDialogue.13": "Hello.$0#$e#Can I help you with something?$0",
+  "Marlon.CharacterDialogue.14": "Hey there. How's adventuring?$0#$e#If you find yourself needing a stronger weapon, take a look in our weapons cache.$0",
+  "Marlon.CharacterDialogue.15": "Watch those corners in the mines, @. You never know what may be waiting for you.$0#$e#Take care.$0",
+  "Marlon.CharacterDialogue.16": "...$0#$e#Err... enjoying the weather today?$0#$e#%Marlon turns away. He seems busy.$0",
+  "Marlon.CharacterDialogue.17": "Hello, @.$0#$e#If you have questions about the local monsters or combat techniques, don't hesitate to ask.$0",
+  "Marlon.CharacterDialogue.18": "You remind me of Alesia. Always prepared to protect people, no matter the cost.$0#$e#Keep up the good work, @.$0",
+  "Marlon.CharacterDialogue.19": "Hi.$0#$e#I'm not what you'd call the 'chatty' type.$0",
+  "Marlon.CharacterDialogue.20": "I scout the mines several times a week, trying to gauge monster populations.$0#$e#Wouldn't want too many of them grouped up. They could start trickling out of the caves into the valley.$1",
+  "Marlon.CharacterDialogue.21": "Hey, @. We should go on an expedition together sometime. I could use the help.$0#$e#Always eager to lend assistance. I appreciate your fighting spirit.$0",
+  "Marlon.CharacterDialogue.22": "My sword's really taken a beating. Clint will need to take a look at it soon.$2#$e#He's skilled in his craft.$0",
+  "Marlon.CharacterDialogue.23": "In some fights, the best strategy is to retreat. Know your exits.$0#$e#...$2#$e#%Marlon turns away from you.",
+  "Marlon.CharacterDialogue.24": "It's imperative to keep a good stock of potions on hand when adventuring.#$b#It could be the difference between life and certain demise.$2#$e#Take care, @.",
+  "Marlon.CharacterDialogue.25": "If you spot any monsters outside the mine cave, alert me at once.$0#$e#I'll make quick work of them.$0",
+  "Marlon.CharacterDialogue.26": "Gus serves good food and drink at the Stardrop Saloon.$0#$e#If you find yourself needing rations in the mines, there's no better place than the saloon to get them.$0",
+  "Marlon.CharacterDialogue.27": "Thankless job we have, @. I appreciate everything you've done.$0#$e#Have a nice day.$0",
+  "Marlon.CharacterDialogue.28": "Hello.$0#$e#Err... any plans for the weekend?$0#$e#Hmm. I see. Sounds interesting.#$e#...$0#$e#%Marlon doesn't feel like talking.",
+  "Marlon.CharacterDialogue.29": "Need to visit Rasmodius at his abode soon. Need to refresh the enchantments on a few weapons in the armory.$0",
+  "Marlon.CharacterDialogue.30": "You're doing the guild proud, @. Keep up the good work.$0",
+  "Marlon.CharacterDialogue.31": "Sword, dagger, or hammer? The weapon you choose dictates your fighting style.$0#$e#I prefer swords. Short range on daggers gets me too close to monsters for comfort, and hammers slow me down.$0",
+  "Marlon.CharacterDialogue.32": "I want to introduce you to some folks in Castle Village sometime, @. The feats you've accomplished are impressive.$0#$e#The village is invitation only to those who have proven themselves in the field of combat. I'll talk to my connections and see what I can do.$0",
+  //
+  "Marlon.CharacterDialogue.033": "With heat like this, I prefer being deep down in the mines where it's cool.$0",
+  "Marlon.CharacterDialogue.034": "Still need something to drop into the festival's soup, @?#$e#I wonder how the soup will turn out tomorrow.$0#$b#Perhaps the cave carrots I dug up would make a good addition?$1",
+  "Marlon.CharacterDialogue.035": "The moonlight jellies are visiting the beach today. Beautiful little creatures.$0#$e#They look similar to zines, poisonous jellyfish that occupy deep ocean caverns at the Fern Islands.",
+  //unused dialogue
+  "Marlon.CharacterDialogue.36": "Whatever you do, don't gift me ice cream.$0#$e#I'm not fond of the stuff.$2",
+  "Marlon.CharacterDialogue.37": "Insects outside get into the caves and are corrupted by dark magic.$2#$b#It's the very reason why the top floors are nothing but oversized bugs.#$e#Easily defeated, though. One quick slash with a good enchanted weapon and they're done for.",
+  "Marlon.CharacterDialogue.38": "...$2#$e#Hmm? Oh. Just thinking about something.#$e#Can I help you, @?",
+  "Marlon.CharacterDialogue.39": "*sigh* Missed a swipe of my sword on a slime yesterday and it got a hit on me. Nothing too serious.$2#$e#Need to apply myself more to practicing my sword stances.$2#$e#Never thought I'd say it, but maybe I should be taking some tips from you...$1",
+  "Marlon.CharacterDialogue.40": "The valley has come a long way since I first came here.$0#$e#I miss the early days a little. Most of the changes are good.$1",
+  "Marlon.CharacterDialogue.41": "Guild used to be a lot bigger. Stardew Valley wasn't always as 'monster-free' as it is now.#$e#Rasmodius played a big part in the security here.",
+  "Marlon.CharacterDialogue.42": "Folks in this village don't understand just how much Rasmodius does for them.$0#$e#Without him, this place probably would have been overrun by monsters long ago.$0",
+  "Marlon.CharacterDialogue.43": "Mines are dangerous if you're not prepared.#$e#I recommend bringing extra supplies on your expeditions.",
+  "Marlon.CharacterDialogue.44": "It's a pleasure, @.#$e#Farewell.",
+  "Marlon.CharacterDialogue.45": "Hey there, @. We just received a new stock of weapons.#$e#The blacksmith at Castle Village is as talented as they come.",
+  "Marlon.CharacterDialogue.46": "During the time I've spent traveling and fighting monsters, I've come across many interesting people.$0#$e#Some of the most interesting are here in this valley. Including you, of course.$2",
+  "Marlon.CharacterDialogue.47": "Hey there, @. Any plans for the upcoming week?$0#$e#If you fight, fight safely.$2",
+  //
+  "Marlon.CharacterDialogue.048": "Hello, @.$0#$e#Start of a new season.",
+  "Marlon.CharacterDialogue.049": "Heard news from Mayor Lewis. There's many tourists visiting Pelican Town tomorrow for the festival.$0#$e#I get nervous around large crowds.$2",
+  "Marlon.CharacterDialogue.050": "Need to gather my supplies soon. Heading out to the mines with a Castle Village adventurer. We're capturing monsters for the festival.$0#$e#Spirit's Eve presents a good opportunity to show the townsfolk just how dangerous monsters are.$0",
+  "Marlon.CharacterDialogue.051": "Cages are bein' set up in town as we speak. Caught several shadow brutes and skeleton walkers.$0",
+  "Marlon.CharacterDialogue.052": "Winter arrives soon, @. With your freed up time, are you planning on adventuring more than usual?$0#$e#If so, please be careful. Don't get yourself in a position you can't get out of.",
+  //unused dialogue
+  "Marlon.CharacterDialogue.53": "You ever get scared, down in the mines alone?$0#$e#Even I do, still. Never know what could come creepin' up on you.$0",
+  "Marlon.CharacterDialogue.54": "Find yourself a trusty weapon and take enough supplies and there's nothing you can't tackle.$0#$e#You're shapin' up to be a fine adventurer, @.$2",
+  "Marlon.CharacterDialogue.55": "Good ore deep in the mines. Easy to strike riches, but it's risky.#$e#If you're in a situation where a horde is guarding a treasure, even a big one, take my advice: Turn away.$2",
+  "Marlon.CharacterDialogue.56": "Willy said he'd pay me good coin if I caught him a stonefish in the mines.#$b#I don't fish though. Could never catch something that difficult.$2#$e#Hmm. Maybe if I used my bow...?$1",
+  "Marlon.CharacterDialogue.57": "Careful on your adventures today, @.$0",
+  "Marlon.CharacterDialogue.58": "Ever found any artifacts, down in the mines?$0#$e#I don't know too much about them, but Gunther does. You can find some strange things, if you go deep enough.$0",
+  "Marlon.CharacterDialogue.59": "I don't recommend using bombs in the mines. Good chance the cave may collapse.$0",
+  "Marlon.CharacterDialogue.60": "Hope you're taking enough precautions down in the mines, @.$0#$e#Last thing I need is another spot to visit up on the summit. Crowded enough up there already.$2",
+  "Marlon.CharacterDialogue.61": "You're doing the valley proud, @. Keep it up.$0",
+  "Marlon.CharacterDialogue.62": "Black slimes are a rare phenomenon - corrupted by dark magic for hundreds of years.$0#$e#If you encounter a black slime, don't let it touch you.$2",
+  "Marlon.CharacterDialogue.63": "Insects outside get into the caves and are corrupted by dark magic.$2#$b#It's the very reason why the top floors are nothing but oversized bugs.#$e#Easily defeated, though. One quick slash with a good enchanted weapon and they're done for.",
+  "Marlon.CharacterDialogue.64": "You make a lot of friends in town yet?$0#$e#For me, they come and go. The current crowd is nice and friendly, though.$2",
+  "Marlon.CharacterDialogue.65": "Need to visit the friends I've lost at the summit soon.#$b#Bein' an adventurer is dangerous work.$2#$e#I'm glad you joined our cause.",
+  "Marlon.CharacterDialogue.66": "Slimes are easily defeated one-on-one, but you must be careful if they're grouped up.#$b#You could be overwhelmed in an instant.$2",
+  "Marlon.CharacterDialogue.67": "Maybe it's time to retire soon... you ever try raising slimes?$2#$b#Might make a nice change from just fighting 'em.$2#$e#%Marlon scratches his beard, looking thoughtful.",
+  //
+  "Marlon.CharacterDialogue.068": "I wear my favorite uniform during winter. What do you think?$0#$e#What? You think it looks the same? Heh.$0",
+  "Marlon.CharacterDialogue.069": "I object to the town's ice festival gathering every year.$0#$b#The magic barrier that far out in the forest is weak. Monsters could slip through.$0#$e#I'll be keeping close watch. Don't worry.$0",
+  "Marlon.CharacterDialogue.070": "Not particularly fond of gift giving, but if it puts a smile on someones face, I'll do it.$0",
+  "Marlon.CharacterDialogue.071": "Snow is clearing soon. I trust you'll devote more of your time to farmwork?$0",
+  //unused dialogue
+  "Marlon.CharacterDialogue.72": "Doin' well today, @?$0#$e#Lemme know if me and Gil can do anything for you.$2",
+  "Marlon.CharacterDialogue.73": "Gil and I have known each other for a long time. Been through lots together.$0#$e#Good friends are some of the best things to have, in this business. You can watch each other's backs.$2",
+  "Marlon.CharacterDialogue.74": "Any recent feats in battle you wanna brag about, @?$0#$e#Well, lemme know if you come up with any good ones. No tall tales, though.$2",
+  "Marlon.CharacterDialogue.75": "Singlehandedly took out several floors of monsters and secured a pile of diamonds yesterday in the mines.#$b#These diamonds will prove useful in Rasmodius' arcane studies.$0",
+  "Marlon.CharacterDialogue.76": "Gil tends to sleep more than usual during winter.#$e#Well, he's always like that, actually.$2",
+  "Marlon.CharacterDialogue.77": "Gil is taking a trip to Castle Village. Much business to attend to regarding new adventurers.$0#$e#He doesn't get out as much nowadays. Good for him.$0",
+  "Marlon.CharacterDialogue.78": "You enjoy the winter, @? I know I do, even though it's not the most popular of seasons.$0",
+  "Marlon.CharacterDialogue.79": "Silence of winter is mesmerizing.$2#$e#I enjoy taking late night strolls in the dead of night, nothing lighting my path but my lantern.$0",
+  "Marlon.CharacterDialogue.80": "Some arcane scholars believe ghosts in the mines are the lost spirits of travelers who never returned.$0",
+  "Marlon.CharacterDialogue.81": "Legends tell of civilizations of the shadow people underground, similar to the dwarves.#$e#All that remains are their outer shells, mercilessly attacking any soul in their path.$2#$e#They are of the same creature as Krobus.$0",
+  "Marlon.CharacterDialogue.82": "Talked to Rasmodius up in his tower yet?$0#$e#I know lotsa things come to mind when you think 'wizard', but he might surprise you.$2",
+  "Marlon.CharacterDialogue.83": "Rasmodius spends most of his days studying arcane properties.#$e#If you want to get on his good side, I recommend giving him void essence.",
+  "Marlon.CharacterDialogue.84": "Freezing today.$0#$e#One of those days it can be warmer underground than above.$2",
+  "Marlon.CharacterDialogue.85": "Stay bundled up today, @, especially if you go battlin'.$0#$e#...Just don't bundle up so well you can't swing a weapon.$2",
+  "Marlon.CharacterDialogue.86": "Then in that case...!",
+  "Marlon.CharacterDialogue.87": "Hmm...",
+  "Marlon.CharacterDialogue.88": "Haha! Good answer.",
+  "Marlon.CharacterDialogue.89": "Yes, there are. The further down you go, the more monsters you'll encounter that have been...#$b#That have been corrupted for many years. It gives them supernatural strength.",
+  "Marlon.CharacterDialogue.90": "Hmm...",
+  //
+  //Marlon Vanilla Speech Bubbles
+  "Marlon.Vanilla.01": "He's back!",
+  "Marlon.Vanilla.02": "She's back!",
+  "Marlon.Vanilla.03": "Need a new sword?",
+  "Marlon.Vanilla.04": "Greetings.",
+  "Marlon.Vanilla.05": "Good evening.",
+
+  "SpouseRoom.1": "...A private stash of distilled wine.",
+  "SpouseRoom.2": "There are several books regarding monster ecology.#'Remnants of Shadowpeople'#'A Regime Under Darkness'#'The Royal Fallacy'",
+  "SpouseRoom.3": "There are several books about sword handling.#'Hardened Steel'#'Be Steel, My Beating Heart'#'The Old Knives Tale'#'Blood and Cuts'",
+
+  "Friend": "Friend",
+  "InLaw": "In Law", //"test",
+
+  //Marlon Movie Dialogue
+  "Marlon.Movies.01": "Horror films test my integrity. Let us procure our seats.$2",
+  "Marlon.Movies.02": "No jump scare will get to me...$2",
+  "Marlon.Movies.03": "Thank you kindly for the invite, @. That was quite enjoyable.$2",
+  "Marlon.Movies.04": "This genre of film is not my favorite, but I'll give it a go...$2",
+  "Marlon.Movies.05": "Hmm. I don't have much to say about the film...$0",
+  "Marlon.Movies.06": "Well. Let us grab seats post haste, @.",
+  "Marlon.Movies.07": "Interesting film. Acting was a little sub-par, though.$4",
+  "Marlon.Movies.08": "Hmm. There's something magical about this theater. I can feel it in the air...$3",
+  "Marlon.Movies.09": "I was engrossed in the film. Thank you kindly for the invite, @.$2",
+  "Marlon.Movies.10": "Well. Let's watch the movie, @.$1",
+  "Marlon.Movies.11": "Hmm. I didn't pay too much attention.$0",
+  //greenrain
+  "GreenRain_0": "Scared? Me?$10#$b#That's sweet, but I've fought off swathes of monsters.$14#$b#A little magic rain doesn't phase me when you've been around characters like Rasmodius.$2",
+  "GreenRain_1": "I hone my skills in the rain.$2#$e#I may be half a {{gender}}, but that won't stop me from doing what I do best.$14",
+  "GreenRain_2": "Rasmodius has placed an order with the guild for me to collect some barrels of this rain.$12#$e#Sorry, I just dread carting it off to his tower.$11",
+  "GreenRain_3": "...$11#$e#...$12#$e#...$11#$e#...$12#$e#%Marlon is dozing off.#$e#%Marlon is dozing off.#$e#%Marlon is dozing off.#$e#%Marlon is dozing off.#$e#%Marlon is dozing off.#$e#%Marlon is dozing off.#$e#%Marlon is dozing off.#$e#!!$9#$b#Oh, hello @. The rain comforts me, and it feels like there's something magically healing about it this time around.$14",
+  "GreenRainFinished_0": "Aaah.$14#$b#%Loud cracking noises come out of Marlon as he stretches.#$b#Nothing like strange magic rain to get the body feeling rejuvenated.$10",
+  "GreenRainFinished_1": "Gil is making a strange soup with the purified magic rain.$11#$e#I'm unsure how I feel about it.$6",
+  "GreenRainFinished_2": "...Everyone was in the saloon...?$5#$e#%Marlon seems to be chuckling to himself.#$e#Pardon me, ${sonny, missy, sweetheart}$, I know I shouldn't laugh at the fear of the town.$7",
+  "GreenRainFinished_3": "I'm sure the valley is flush with whatever that magic rain was.$2#$b#I guess when you're my age, nothing really surprises you anymore.$7",
+  //movie invitation
+  "MovieInvitation_0": "The movies, eh?$15#$b#Sure, Gil can handle the fort for a few hours.$14",
+  "MovieInvitation_1": "Y'know, showing kindness to the elders of the valley will bring you no karma.$2#$b#I accept your invitation, though.$10#$b#Just wanted to poke fun at the farmer showing interest in this old {{gender}}.$14",
+  "MovieInvitation_2": "I've been interested in what's been showing lately.$2#$b#I'll gladly accept your invitation.$14",
+  "MovieInvitation_3": "A cold, dimly lit room with a sparse amount of people?$2#$b#Are you quite sure you wish to take the chance to be alone with an old {{gender}} like me?$14#$b#I'm joking, I'll accept your invitation, I just wanted to question your motives.$10",
+  //breakup
+  "breakUp_0": "...Pardon.$4#$e#I'm not used to the concept of 'flings', but I definitely feel the weight of a heavy heart.$6#$e#%Marlon is ignoring you.",
+  "breakUp_1": "...$11#$e#I've lived a pretty decent life, I'd say. Decent enough that my feelings shouldn't have been toyed with.$6#$e#%Marlon is ignoring you.",
+  "breakUp_2": "Excuse this old {{gender}}, there are plenty of others around the valley, don't you have anyone else to chase after?$4#$e#%Marlon is ignoring you.",
+  "breakUp_3": "I am far too old to be toyed with, you'll have to excuse me.$9#$e#%Marlon is ignoring you.",
+  //divorced
+  "divorced_0": "I have accepted my flaws, I had hoped you did as well.$11#$e#%Marlon is ignoring you.",
+  "divorced_1": "...Was it... fun?$8#$e#Toying with an old {{gender}}...?$11#$e#%Marlon is ignoring you.",
+  "divorced_2": "...We may have parted, but I still do not wish you ill, I only wish for my own peace.$11#$e#%Marlon is ignoring you.",
+  "divorced_3": "It truly must have been a sight, to lift this old {{gender}}'s hopes up just to shatter them.$4#$e#%Marlon is ignoring you.",
+  //birthday gift
+  "AcceptBirthdayGift_Negative": "Ah, this is... a gift for my birthday?$4#$b#I'm not quite sure what I should say.$3",
+  "AcceptBirthdayGift_Positive": "What is this for?$5#$b#My birthday?$9#$b#I had honestly forgotten, thank you, @.$10",
+  "AcceptBirthdayGift": "To remember this old {{gender}}'s birthday?$14#$b#What a surprise you are, @.$10",
+  //misc
+  "DumpsterDiveComment": "Linus been teaching you the ropes?",
+  "HitBySlingshot": "Y'know you should put your money where your mouth is.$9#$b#I am still an active adventurer.$9",
+  //bouquet
+  "AcceptBouquet": "...?$9#$b#Pardon, this is for me?$9#$b#I'm honestly a little baffled, you're interested in this old sack of bones?$12#$b#I guess I don't have the poker face I used to have.$14#$b#I accept, happy to be in your care, @.$10",
+  "RejectBouquet_Divorced": "...Surely one of the youngins in the valley would sing to your tune.$9#$b#I am not so complacent.$11",
+  "RejectBouquet_NpcAlreadyMarried": "Excuse my rudeness, I am quite taken.$8",
+  "RejectBouquet_VeryLowHearts": "I'm not too fond of cluttering my office with flowers.$11#$b#Pardon? You wished to date me?$9#$b#...Wholly uninterested, but thank you.$9",
+  "RejectBouquet_LowHearts": "Jumping the gun a little there?$9#$b#Maybe another time.",
+  "RejectBouquet": "I'm not too fond of cluttering my office with flowers.$11#$b#Pardon? You wished to date me?$9#$b#...Wholly uninterested, but thank you.$9",
+  "RejectBouquet_AlreadyAccepted_Engaged": "...$12#$b#I did fall for you and your tricks, muffin, but we are to be wed soon.$2",
+  "RejectBouquet_AlreadyAccepted_Married": "...$12#$b#You surely are some kind of trickster, muffin.$2#$b#What use would there be to date when we're already wed?$14",
+  "RejectBouquet_AlreadyAccepted": "I have no use for a second set of flowers, my trickster.$14",
+  "RejectMermaidPendant_AlreadyAccepted_Engaged": "...$11#$b#Pardon?$9#$b#Another pendant? We are already getting ready for the wedding--did you forget?$14",
+  "RejectMermaidPendant_AlreadyAccepted_Married": "Pardon?$13#$b#Were you planning to marry me again in the... what was it, 'fourth dimension'?$10#$b#You truly are a silly little gummy bear, muffin.$14",
+  "RejectMermaidPendant_AlreadyAccepted": "Pardon?$13#$b#Were you planning to marry me again in the... what was it, 'third dimension'?$10#$b#You truly are a silly little gummy bear, muffin.$14",
+  //dating
+  "Dating_1_Year": "It's truly been a marvelous year.$14#$b#I am always ready to be yours wholeheartedly, whenever you're ready.$10",
+  //reject
+  "RejectGift_Divorced": "I am not a generous {{gender}}.$11",
+  "RejectMermaidPendant_Divorced": "It truly must have been a sight, to lift this old {{gender}}'s hopes up just to shatter them.$4#$e#%Marlon is ignoring you.",
+  "RejectMermaidPendant_NeedHouseUpgrade": "I may not have much to take with me, but I don't think we'll both fit in such a small space.$14",
+  "RejectMermaidPendant_NpcWithSomeoneElse": "Excuse my rudeness, I am quite taken.$8",
+  "RejectMermaidPendant_PlayerWithSomeoneElse": "...I am not interested in being a 'plus one'.$11",
+  "RejectMermaidPendant_Under8Hearts": "Surely one of the youngins in the valley would appreciate this more than me.$14",
+  "RejectMermaidPendant_Under10Hearts": "Jumping the gun there, sweetheart.$14#$b#We'll get there, soon enough.$10",
+  "RejectMermaidPendant_Under10Hearts_AskedAgain": "You make me seem as if I'm some heartless {{gender}}, denying my sweetheart.$14#$b#We'll get there soon, muffin.$2",
+  "RejectMermaidPendant": "Surely one of the youngins in the valley would appreciate this more than me.$14",
+  "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "I'm not interested in being a third wheel. Enjoy yourself, though.$2",
+  "RejectMovieTicket_AlreadyWatchedThisWeek": "I'm not a fan of reruns, maybe some other time.$2",
+  "RejectMovieTicket_Divorced": "I am not a generous {{gender}}.$11",
+  "RejectMovieTicket_DontWantToSeeThatMovie": "Apologies, I'm not quite interested in this movie. Maybe some other time.",
+  "RejectMovieTicket": "Apologies, I'm not quite interested in this movie. Maybe some other time.",
+  //spouse misc
+  "SpouseFarmhouseClutter": "...Do you need help cleaning, muffin?$9",
+  "Spouse_MonstersInHouse": "Watch out!$9",
+  "SpouseStardrop": "Oh that?$13#$b#Found that in the piles of junk when I was helping Rasmodius sort through his tower.$14#$b#Said it was my payment for the day, but I made a fuss and still got my fair due.$10",
+  //stardew fair
+  "Fair_Judging": "...Nervous?$2#$b#It's good to keep aware, but we're safe. You've worked hard this year.$14",
+  "Fair_Judged_PlayerLost_PurpleShorts": "...$15#$b#...$13#$b#...$10#$b#%Marlon is laughing uncontrollably.#$b#Hahah... ah... That has possibly been the hardest I've laughed in quite awhile, thank you, @.$14",
+  "Fair_Judged_PlayerLost_Skipped": "There's always next year.$10",
+  "Fair_Judged_PlayerLost": "There's always next year.$10",
+  "Fair_Judged_PlayerWon": "Congrats, you've worked hard and it showed.$10",
+  //flowerdance
+  "FlowerDance_Accept_Spouse": "You sure love watching these old bones embarrass themselves.$14#$b#Of course I'll dance with you, muffin.$2",
+  "FlowerDance_Accept": "...Me?$9#$b#You wish to dance with me?$9#$b#I--I guess I accept, this is quite strange for me though.$14#$b#Please excuse my two left feet.$10",
+  "FlowerDance_Decline": "The youngins are definitely better dancers than I.$14#$b#I'll have to decline and sit this one out.$2",
+  //winterstar
+  "WinterStar_GiveGift_Before_Spouse": "I definitely didn't rig it, muffin.$10#$b#I simply encouraged that I would be your gift giver.$14",
+  "WinterStar_GiveGift_Before": "My lot drawn was you, hope you don't mind adventuring spoils.$14",
+  "WinterStar_GiveGift_After_Spouse": "Okay maybe I rigged it.$14#$b#Can't have anyone stealing my thunder.$10#$b#Happy Winter Star, dearest.$14",
+  "WinterStar_GiveGift_After": "Hope it's useful for you, @.$14",
+  "WinterStar_ReceiveGift": "Oh you're my secret gifter?$10#$b#Thank you, @.$14",
+  //Marlon Festival Dialogue
+  //egg
+  "Egg_0": "Even with my bad leg, I never miss a town festival.",
+  "Egg_1": "You won't have to worry, none of the eggs are of the monster variety.$2",
+  "Egg_2": "...I'm in the mood for some good deviled eggs now.$14",
+  "Egg_3": "...$11#$e#%Marlon looks tired.#$e#Pardon me, last night was a rougher one.$12",
+  "Egg_4": "The windchill is making the phantom pains kick in.$6#$e#Good luck out there, @.$14#$e#I'm quite comfortable right here.$2",
+  "Egg_5": "...$11#$e#...$12#$e#...!$9#$e#Don't tell Lewis I dozed off.$4#$b#I'll never hear the end of it.$4",
+  "Egg_6": "Rasmodius tries every year to sneak in some kind of strange egg.$9#$e#Says it's to keep me on my toes...$12",
+  "Egg_7": "I look forward to the deviled eggs that Gus makes with the leftovers.$10",
+  "EggSpouse_0": "I have done everything in my power to throw out all of the lizard eggs that Rasmodius has hidden away.$9",
+  "EggSpouse_1": "Good luck out there, muffin.$10#$e#Tell you where they're hidden?$3#$e#Your best bet is to take a southern to northern route.$4#$e#Not a word to anyone of the secret.$14",
+  "EggSpouse_2": "Eggs symbolizing rebirth is interesting.$11#$e#Krobus would talk the rest of my ear off about Yoba if I let him.$14",
+  "EggSpouse_3": "The children love to paint the eggs.$10#$e#It's somewhat of a chore to haul off the eggshells, but it is a comfort to watch them be enamored with the decoration.$14",
+
+  //Flower
+  "Flower_0": "...My allergies are kicking up.$11",
+  "Flower_1": "I prefer watching the youngins enjoy themselves.$14",
+  "Flower_2": "My two left feet are graceful during combat, but during these instances, I am just a fawn.$14",
+  "Flower_3": "Lewis doesn't let me dance with my sword.$11",
+  "Flower_4": "...My bad leg is aching, wonder if it's the wind.$11",
+  "Flower_5": "Lewis almost caved to my request to dance with my sword.$9#$e#Maybe next year...$4",
+  "Flower_6": "The little ones enjoy my sword dance.$10",
+  "Flower_7": "Never understood why it's gotta be 'blue' attire.$11",
+  "FlowerSpouse_0": "I will not deny, I have marvelled your dancing form since the first festival.$14",
+  "FlowerSpouse_1": "Who wouldn't enjoy watching their loved one dance about?$10#$b#I marvel at your form every time.$14",
+  "FlowerSpouse_2": "You've graced these old bones with your presence, another year, another dance?$14",
+  "FlowerSpouse_3": "The envy of all who wish to dance with you...$14#$b#I shall bear that burden if you would let me.$2",
+
+  //Luau
+  "Luau_0": "Not too fond of this ars...$4#$b#*Ahem*$2#$b#Pardon? I said nothing.$14",
+  "Luau_1": "...I'm only here for Gus' special chili.$4",
+  "Luau_2": "%Marlon is muttering to himself.#$b#Don't forget to get chili for Gil.$6#$b#Don't forget to get chili for Gil.$6#$b#%Seems like Gil really likes the chili.",
+  "Luau_3": "...If I had a diamond for every time Lewis kissed his ars--$8#$b#!!$9#$b#I said nothing, you heard nothing.$9",
+  "Luau_4": "Never really been interested in cauldrons.$4#$b#Call me a {{gender}} scorned.$9",
+  "Luau_5": "I vaguely remember the word 'luau' is another form of celebration that usually requires dancing.$9#$b#Glad Lewis doesn't remember the latter.$11",
+  "Luau_6": "Being out in the sun makes the tiredness set... in...$11#$e#...$12#$b#%No one is looking, I should let Marlon rest.",
+  "Luau_7": "Not a fan of excessive drinking, always led to mistakes.$9#$b#...Yes, I've made plenty of mistakes in my life, why do you ask?$4",
+  "LuauSpouse_0": "It's a shame... Lewis denied my request for... a dedicated dancing timeslot...$11#$e#%Seems like Marlon is dozing off.#$e#!!!$9#$b#I apologize, muffin--my debate with Lewis went on longer than I had planned about--$9#$b#*Ahem*$2#$b#Maybe I'll convince Lewis next year to be able to show you my sword dance.$10",
+  "LuauSpouse_1": "Care to keep me company in the shade, muffin?$14#$b#I'm sure the rest of the town won't mind your absence for a few moments.$4#$b#%Marlon quickly scanned the area and stole a kiss.#$b#Call me sentimental, it's moments like these that make me grateful for living the life I did.$10",
+  "LuauSpouse_2": "Gunther got this shirt for me from one of his 'artifact reveal' parties.$12#$b#Not quite sure how I feel about it.$11#$b#It's breezy at least.$14",
+  "LuauSpouse_3": "Muffin can I... ask you for a favor?$11#$b#...Can you massage my shoulders for a moment?$9#$b#The phantom pain is kicking in again and I feel like my teeth will break from gritting them.$9#$e#%Kind of sounds like a bag of crisped rice.#$e#Aaah...Thank you, muffin.$6#$b#It's hard to leave the house without something hiding the stub, but it makes my shoulders so stiff.$8",
+
+  //Jelly
+  "Jelly_0": "I recall one of the young ones saying something about bio-biolu-biolumi?$9#$b#...The glowy thing that the lunaloos do...$9#$b#Is a hunting mechanism.$10",
+  "Jelly_1": "Fried lunaloo is not the same as calamari.$9#$b#...Not making that same mistake again.$9",
+  "Jelly_2": "The idea of 'strutting' in courtship is beyond me.$2#$b#All of my fangs have been worn down, and I'm sure there aren't that many who'd enjoy a {{gender}} like me.$2",
+  "Jelly_3": "....$11#$e#...$12#$e#....$2#$e#...ngh...$6#$e#!!!$9#$b#@, sorry, I guess I dozed off.$14",
+  "Jelly_4": "It's always nice this time of year, that cool breeze and then the migration of lunaloo.$2",
+  "Jelly_5": "...$6#$e#%Looks like Marlon fell asleep.#$e#Hm...?$11#$b#@?$8#$b#Ah, thank you for waking me. Had a rougher monster infestation yesterday and didn't get to sleep.$2",
+  "Jelly_6": "",
+  "Jelly_7": "",
+  "JellySpouse_0": "",
+  "JellySpouse_1": "",
+  "JellySpouse_2": "",
+  "JellySpouse_3": "",
+
+  //Fair
+  "Fair_0": "Even with my bad leg, I never miss a town festival.",
+  "Fair_1": "",
+  "Fair_2": "",
+  "Fair_3": "",
+  "Fair2_0": "Even with my bad leg, I never miss a town festival.",
+  "Fair2_1": "",
+  "Fair2_2": "",
+  "Fair2_3": "",
+  "FairSpouse_0": "",
+  "FairSpouse_1": "",
+  "FairSpouse_2": "",
+  "FairSpouse_3": "",
+
+  //Spirit
+  "Spirit_0": "Even with my bad leg, I never miss a town festival.",
+  "Spirit_1": "",
+  "Spirit_2": "",
+  "Spirit_3": "",
+  "Spirit2_0": "Even with my bad leg, I never miss a town festival.",
+  "Spirit2_1": "",
+  "Spirit2_2": "",
+  "Spirit2_3": "",
+  "SpiritSpouse_0": "",
+  "SpiritSpouse_1": "",
+  "SpiritSpouse_2": "",
+  "SpiritSpouse_3": "",
+
+  //Ice
+  "Ice_0": "Even with my bad leg, I never miss a town festival.",
+  "Ice_1": "",
+  "Ice_2": "",
+  "Ice_3": "",
+  "Ice2_0": "Even with my bad leg, I never miss a town festival.",
+  "Ice2_1": "",
+  "Ice2_2": "",
+  "Ice2_3": "",
+  "IceSpouse_0": "",
+  "IceSpouse_1": "",
+  "IceSpouse_2": "",
+  "IceSpouse_3": "",
+
+  //XMas
+  "XMas_0": "Even with my bad leg, I never miss a town festival.",
+  "XMas_1": "",
+  "XMas_2": "",
+  "XMas_3": "",
+  "XMas2_0": "Even with my bad leg, I never miss a town festival.",
+  "XMas2_1": "",
+  "XMas2_2": "",
+  "XMas2_3": "",
+  "XMasSpouse_0": "",
+  "XMasSpouse_1": "",
+  "XMasSpouse_2": "",
+  "XMasSpouse_3": "",
+
+
+  //////////////////////////////vanilla data
+  "SummitEvent_Dialogue3_Marlon": "test",
+  //mondays
+  "Mon_0": "test",
+  "Mon_1": "test",
+  "Mon_2": "test",
+  "Mon_3": "test",
+  "Mon_4": "test",
+  "Mon_5": "test",
+
+  //Spring_Mondays
+  "Spring_Mon_0": "test",
+  "Spring_Mon_1": "test",
+  "Spring_Mon_2": "test",
+  "Spring_Mon_3": "test",
+  "Spring_Mon_4": "test",
+  "Spring_Mon_5": "test",
+
+  //Summer_Mondays
+  "Summer_Mon_0": "test",
+  "Summer_Mon_1": "test",
+  "Summer_Mon_2": "test",
+  "Summer_Mon_3": "test",
+  "Summer_Mon_4": "test",
+  "Summer_Mon_5": "test",
+
+  //Fall_Mondays
+  "Fall_Mon_0": "test",
+  "Fall_Mon_1": "test",
+  "Fall_Mon_2": "test",
+  "Fall_Mon_3": "test",
+  "Fall_Mon_4": "test",
+  "Fall_Mon_5": "test",
+
+  //Winter_Mondays
+  "Winter_Mon_0": "test",
+  "Winter_Mon_1": "test",
+  "Winter_Mon_2": "test",
+  "Winter_Mon_3": "test",
+  "Winter_Mon_4": "test",
+  "Winter_Mon_5": "test",
+
+
+  //tuesdays
+  "Tue_0": "test",
+  "Tue_1": "test",
+  "Tue_2": "test",
+  "Tue_3": "test",
+  "Tue_4": "test",
+  "Tue_5": "test",
+
+  //Spring_Tuedays
+  "Spring_Tue_0": "test",
+  "Spring_Tue_1": "test",
+  "Spring_Tue_2": "test",
+  "Spring_Tue_3": "test",
+  "Spring_Tue_4": "test",
+  "Spring_Tue_5": "test",
+
+  //Summer_Tuedays
+  "Summer_Tue_0": "test",
+  "Summer_Tue_1": "test",
+  "Summer_Tue_2": "test",
+  "Summer_Tue_3": "test",
+  "Summer_Tue_4": "test",
+  "Summer_Tue_5": "test",
+
+  //Fall_Tuedays
+  "Fall_Tue_0": "test",
+  "Fall_Tue_1": "test",
+  "Fall_Tue_2": "test",
+  "Fall_Tue_3": "test",
+  "Fall_Tue_4": "test",
+  "Fall_Tue_5": "test",
+
+  //Winter_Tuedays
+  "Winter_Tue_0": "test",
+  "Winter_Tue_1": "test",
+  "Winter_Tue_2": "test",
+  "Winter_Tue_3": "test",
+  "Winter_Tue_4": "test",
+  "Winter_Tue_5": "test",
+
+
+  //wednesdays
+  "Wed_0": "test",
+  "Wed_1": "test",
+  "Wed_2": "test",
+  "Wed_3": "test",
+  "Wed_4": "test",
+  "Wed_5": "test",
+
+  //Spring_Mondays
+  "Spring_Wed_0": "test",
+  "Spring_Wed_1": "test",
+  "Spring_Wed_2": "test",
+  "Spring_Wed_3": "test",
+  "Spring_Wed_4": "test",
+  "Spring_Wed_5": "test",
+
+  //Summer_Weddays
+  "Summer_Wed_0": "test",
+  "Summer_Wed_1": "test",
+  "Summer_Wed_2": "test",
+  "Summer_Wed_3": "test",
+  "Summer_Wed_4": "test",
+  "Summer_Wed_5": "test",
+
+  //Fall_Weddays
+  "Fall_Wed_0": "test",
+  "Fall_Wed_1": "test",
+  "Fall_Wed_2": "test",
+  "Fall_Wed_3": "test",
+  "Fall_Wed_4": "test",
+  "Fall_Wed_5": "test",
+
+  //Winter_Weddays
+  "Winter_Wed_0": "test",
+  "Winter_Wed_1": "test",
+  "Winter_Wed_2": "test",
+  "Winter_Wed_3": "test",
+  "Winter_Wed_4": "test",
+  "Winter_Wed_5": "test",
+
+
+  //thursdays
+  "Thu_0": "test",
+  "Thu_1": "test",
+  "Thu_2": "test",
+  "Thu_3": "test",
+  "Thu_4": "test",
+  "Thu_5": "test",
+
+  //Spring_Mondays
+  "Spring_Thu_0": "test",
+  "Spring_Thu_1": "test",
+  "Spring_Thu_2": "test",
+  "Spring_Thu_3": "test",
+  "Spring_Thu_4": "test",
+  "Spring_Thu_5": "test",
+
+  //Summer_Thudays
+  "Summer_Thu_0": "test",
+  "Summer_Thu_1": "test",
+  "Summer_Thu_2": "test",
+  "Summer_Thu_3": "test",
+  "Summer_Thu_4": "test",
+  "Summer_Thu_5": "test",
+
+  //Fall_Thudays
+  "Fall_Thu_0": "test",
+  "Fall_Thu_1": "test",
+  "Fall_Thu_2": "test",
+  "Fall_Thu_3": "test",
+  "Fall_Thu_4": "test",
+  "Fall_Thu_5": "test",
+
+  //Winter_Thudays
+  "Winter_Thu_0": "test",
+  "Winter_Thu_1": "test",
+  "Winter_Thu_2": "test",
+  "Winter_Thu_3": "test",
+  "Winter_Thu_4": "test",
+  "Winter_Thu_5": "test",
+
+
+  //fridays
+  "Fri_0": "test",
+  "Fri_1": "test",
+  "Fri_2": "test",
+  "Fri_3": "test",
+  "Fri_4": "test",
+  "Fri_5": "test",
+
+  //Spring_Mondays
+  "Spring_Fri_0": "test",
+  "Spring_Fri_1": "test",
+  "Spring_Fri_2": "test",
+  "Spring_Fri_3": "test",
+  "Spring_Fri_4": "test",
+  "Spring_Fri_5": "test",
+
+  //Summer_Fridays
+  "Summer_Fri_0": "test",
+  "Summer_Fri_1": "test",
+  "Summer_Fri_2": "test",
+  "Summer_Fri_3": "test",
+  "Summer_Fri_4": "test",
+  "Summer_Fri_5": "test",
+
+  //Fall_Fridays
+  "Fall_Fri_0": "test",
+  "Fall_Fri_1": "test",
+  "Fall_Fri_2": "test",
+  "Fall_Fri_3": "test",
+  "Fall_Fri_4": "test",
+  "Fall_Fri_5": "test",
+
+  //Winter_Fridays
+  "Winter_Fri_0": "test",
+  "Winter_Fri_1": "test",
+  "Winter_Fri_2": "test",
+  "Winter_Fri_3": "test",
+  "Winter_Fri_4": "test",
+  "Winter_Fri_5": "test",
+
+
+  //saturdays
+  "Sat_0": "test",
+  "Sat_1": "test",
+  "Sat_2": "test",
+  "Sat_3": "test",
+  "Sat_4": "test",
+  "Sat_5": "test",
+
+  //Spring_Mondays
+  "Spring_Sat_0": "test",
+  "Spring_Sat_1": "test",
+  "Spring_Sat_2": "test",
+  "Spring_Sat_3": "test",
+  "Spring_Sat_4": "test",
+  "Spring_Sat_5": "test",
+
+  //Summer_Satdays
+  "Summer_Sat_0": "test",
+  "Summer_Sat_1": "test",
+  "Summer_Sat_2": "test",
+  "Summer_Sat_3": "test",
+  "Summer_Sat_4": "test",
+  "Summer_Sat_5": "test",
+
+  //Fall_Satdays
+  "Fall_Sat_0": "test",
+  "Fall_Sat_1": "test",
+  "Fall_Sat_2": "test",
+  "Fall_Sat_3": "test",
+  "Fall_Sat_4": "test",
+  "Fall_Sat_5": "test",
+
+  //Winter_Satdays
+  "Winter_Sat_0": "test",
+  "Winter_Sat_1": "test",
+  "Winter_Sat_2": "test",
+  "Winter_Sat_3": "test",
+  "Winter_Sat_4": "test",
+  "Winter_Sat_5": "test",
+
+
+  //sundays
+  "Sun_0": "test",
+  "Sun_1": "test",
+  "Sun_2": "test",
+  "Sun_3": "test",
+  "Sun_4": "test",
+  "Sun_5": "test",
+
+  //Spring_Mondays
+  "Spring_Sun_0": "test",
+  "Spring_Sun_1": "test",
+  "Spring_Sun_2": "test",
+  "Spring_Sun_3": "test",
+  "Spring_Sun_4": "test",
+  "Spring_Sun_5": "test",
+
+  //Summer_Sundays
+  "Summer_Sun_0": "test",
+  "Summer_Sun_1": "test",
+  "Summer_Sun_2": "test",
+  "Summer_Sun_3": "test",
+  "Summer_Sun_4": "test",
+  "Summer_Sun_5": "test",
+
+  //Fall_Sundays
+  "Fall_Sun_0": "test",
+  "Fall_Sun_1": "test",
+  "Fall_Sun_2": "test",
+  "Fall_Sun_3": "test",
+  "Fall_Sun_4": "test",
+  "Fall_Sun_5": "test",
+
+  //Winter_Sundays
+  "Winter_Sun_0": "test",
+  "Winter_Sun_1": "test",
+  "Winter_Sun_2": "test",
+  "Winter_Sun_3": "test",
+  "Winter_Sun_4": "test",
+  "Winter_Sun_5": "test",
+
+
+  //gift dialogue
+
+  //loved
+  "Marlon.Gifts.Loved": "Oh, thank you, what an interesting find.$10",
+  "AcceptGift_(O)StardropTea": "test",
+  "AcceptGift_(O)244": "test", //roots platter
+  "AcceptGift_(O)413": "test", //blue slime
+  "AcceptGift_(O)437": "test", //red slime
+  "AcceptGift_(O)439": "test", //purple slime
+  "AcceptGift_(O)680": "test", //green slime
+  "AcceptGift_(O)773": "test", //life elixir
+  "AcceptGift_(O)373": "", //golden pumpkin
+  "AcceptGift_(O)279": "", //magic rock candy
+  "AcceptGift_(O)797": "", //pearl
+  "AcceptGift_(O)74": "", //prismatic
+  "AcceptGift_(O)446": "", //rabbit foot
+
+  //liked
+  "Marlon.Gifts.Liked": "Taking care of an old {{gender}}, are we?$10#$b#I appreciate the gesture.$14",
+  "AcceptGift_(O)205": "test", //fried mushroom
+  "AcceptGift_(O)287": "test", //bomb
+  "AcceptGift_(O)288": "test", //mega bomb
+  "AcceptGift_(O)303": "test", //pale ale
+  "AcceptGift_(O)346": "test", //beer
+  "AcceptGift_(O)348": "test", //wine
+  "AcceptGift_(O)422": "test", //purple mushroom
+
+  //disliked
+  "Marlon.Gifts.Disliked": "I'm sure I'll find a use for this... maybe as kindling.",
+
+  //hated
+  "Marlon.Gifts.Hated": "Toying with an old {{gender}}, are we?$4",
+  "AcceptGift_(O)233": "test", //ice cream
+  "AcceptGift_(O)283": "test", //holly
+
+  //neutral
+  "Marlon.Gifts.Neutral": "I'm sure Gil's stash for rewarding adventurers could use this.",
+  "AcceptGift_(O)184": "test", //milk
+  "AcceptGift_(O)186": "test", //lmilk
+  "AcceptGift_(O)286": "test", //cherry bomb
+  "AcceptGift_(O)420": "test", //red mushroom
+  "AcceptGift_(O)424": "test", //cheese
+  "AcceptGift_(O)436": "test", //goat milk
+  "AcceptGift_(O)438": "test", //lgoat milk
+  "AcceptGift_(O)803": "", //iridium milk
+
+  //marriage dialogue
+  "Spring_0": "",
+  "Spring_1": "",
+  "Spring_2": "",
+  "Spring_3": "",
+  "Spring_4": "",
+  "Spring_5": "",
+  "Summer_0": "",
+  "Summer_1": "",
+  "Summer_2": "",
+  "Summer_3": "",
+  "Summer_4": "",
+  "Summer_5": "",
+  "Fall_0": "",
+  "Fall_1": "",
+  "Fall_2": "",
+  "Fall_3": "",
+  "Fall_4": "",
+  "Fall_5": "",
+  "Winter_0": "",
+  "Winter_1": "",
+  "Winter_2": "",
+  "Winter_3": "",
+  "Winter_4": "",
+  "Winter_5": "",
+  "patio_0": "",
+  "patio_1": "",
+  "patio_2": "",
+  "patio_3": "",
+  "patio_4": "",
+  "patio_5": "",
+  "Rainy_Day_0": "",
+  "Rainy_Day_1": "",
+  "Rainy_Day_2": "",
+  "Rainy_Day_3": "",
+  "Rainy_Day_4": "",
+  "Rainy_Day_5": "",
+  "Indoor_Day_0": "",
+  "Indoor_Day_1": "",
+  "Indoor_Day_2": "",
+  "Indoor_Day_3": "",
+  "Indoor_Day_4": "",
+  "Indoor_Day_5": "",
+  "Rainy_Night_0": "",
+  "Rainy_Night_1": "",
+  "Rainy_Night_2": "",
+  "Rainy_Night_3": "",
+  "Rainy_Night_4": "",
+  "Rainy_Night_5": "",
+  "Indoor_Night_0": "",
+  "Indoor_Night_1": "",
+  "Indoor_Night_2": "",
+  "Indoor_Night_3": "",
+  "Indoor_Night_4": "",
+  "Indoor_Night_5": "",
+  "funLeave_0": "",
+  "funLeave_1": "",
+  "funLeave_2": "",
+  "funLeave_3": "",
+  "funLeave_4": "",
+  "funLeave_5": "",
+  "funReturn_0": "",
+  "funReturn_1": "",
+  "funReturn_2": "",
+  "funReturn_3": "",
+  "funReturn_4": "",
+  "funReturn_5": "",
+  "Outdoor_0": "",
+  "Outdoor_1": "",
+  "Outdoor_2": "",
+  "Outdoor_3": "",
+  "Outdoor_4": "",
+  "Outdoor_5": "",
+  "spouseRoom_0": "",
+  "spouseRoom_1": "",
+  "spouseRoom_2": "",
+  "spouseRoom_3": "",
+  "spouseRoom_4": "",
+  "spouseRoom_5": "",
+  "OneKid_0": "",
+  "OneKid_1": "",
+  "OneKid_2": "",
+  "OneKid_3": "",
+  "OneKid_4": "",
+  "TwoKids_0": "",
+  "TwoKids_1": "",
+  "TwoKids_2": "",
+  "TwoKids_3": "",
+  "TwoKids_4": "",
+  "Good_0": "",
+  "Good_1": "",
+  "Good_2": "",
+  "Good_3": "",
+  "Good_4": "",
+  "Good_5": "",
+  "Good_6": "",
+  "Good_7": "",
+  "Good_8": "",
+  "Good_9": "",
+  "Neutral_0": "",
+  "Neutral_1": "",
+  "Neutral_2": "",
+  "Neutral_3": "",
+  "Neutral_4": "",
+  "Neutral_5": "",
+  "Neutral_6": "",
+  "Neutral_7": "",
+  "Neutral_8": "",
+  "Neutral_9": "",
+  "Bad_0": "",
+  "Bad_1": "",
+  "Bad_2": "",
+  "Bad_3": "",
+  "Bad_4": "",
+  "Bad_5": "",
+  "Bad_6": "",
+  "Bad_7": "",
+  "Bad_8": "",
+  "Bad_9": ""
+}

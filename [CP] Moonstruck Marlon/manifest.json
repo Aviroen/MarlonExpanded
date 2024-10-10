@@ -1,0 +1,37 @@
+{
+  "Name": "Marlon Expanded (Romanceable Marlon)",
+  "Author": "Aviroen",
+  "Version": "1.0.0",
+  "Description": "Turning Marlon into a romanceable bachelor. A full 14 heart events, and highly customizable portraits.",
+  "UniqueID": "Aviroen.ME",
+  "UpdateKeys": [ "Nexus:28117" ],
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Nyapu.Portraits",
+      "IsRequired": false
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

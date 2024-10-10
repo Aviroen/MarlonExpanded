@@ -1,0 +1,324 @@
+{
+  "Changes": [
+    { //EGG
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:EggSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Egg_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Egg_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 41 57 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 41 57 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 41 57 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 41 57 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //flower
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:FlowerSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Flower_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Flower_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 22 21 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 22 21 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 22 20 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //luau
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:LuauSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Luau_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Luau_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 54 7 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 54 7 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 54 7 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 54 7 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //jellies
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:JellySpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Jelly_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Jelly_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 70 5 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 70 5 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 70 5 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 70 5 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //fair
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:FairSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Fair_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Fair_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 35 77 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 20 77 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //spirits
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:SpiritSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Spirit_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Spirit_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 28 57 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 22 62 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //ice
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:IceSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:Ice_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:Ice_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 40 11 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 40 11 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 40 11 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 40 11 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    /////////////////////////////////////////////////////
+    { //xmas
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "{{Marlon}}_spouse": "{{i18n:XMasSpouse_{{Random:{{Range:0,3}}}}}}",
+        "{{Marlon}}": "{{i18n:XMas_{{Random:{{Range:0,7}}}}}}",
+        "{{Marlon}}_y2": "{{i18n:XMas_{{Random:{{Range:0,7}}}}}}"
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Marlon}} 37 56 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Marlon}} 37 56 down",
+          "Delimiter": "/"
+        }
+      ]
+    }
+  ]
+}

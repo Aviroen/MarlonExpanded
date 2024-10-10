@@ -1,0 +1,77 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.BackstoryQuestionsFramework/Questions",
+      "TargetField": [ "{{Marlon}}" ],
+      "Entries": {
+        "{{ModId}}_Marnie": {
+          "ID": "{{ModId}}_Marnie",
+          "Weight": 1,
+          "QuestionText": "{{i18n:BQF.Marnie.q1}}",
+          "AnswerText": "{{i18n:BQF.Marnie.a1}}"
+        },
+        "{{ModId}}_Gil": {
+          "ID": "{{ModId}}_Gil",
+          "Weight": 1,
+          "QuestionText": "{{i18n:BQF.Gil.q1}}",
+          "AnswerText": "{{i18n:BQF.Gil.a1}}"
+        },
+        "{{ModId}}_Willy": {
+          "ID": "{{ModId}}_Willy",
+          "Weight": 1,
+          "QuestionText": "{{i18n:BQF.Willy.q1}}",
+          "AnswerText": "{{i18n:BQF.Willy.a1}}"
+          //{{Random: {{i18n: quote.answer.1}} @@ {{i18n: quote.answer.2}} @@ {{i18n: quote.answer.3}} |inputSeparator=@@}}
+        },
+        "{{ModId}}_Player": {
+          "ID": "{{ModId}}_Player",
+          "Weight": 1,
+          "QuestionText": "{{i18n:BQF.Player.q1}}",
+          "AnswerText": "{{i18n:BQF.Player.a1}}"
+          //{{Random: {{i18n: quote.answer.1}} @@ {{i18n: quote.answer.2}} @@ {{i18n: quote.answer.3}} |inputSeparator=@@}}
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.BackstoryQuestionsFramework/Questions",
+      "TargetField": [ "{{Marlon}}" ],
+      "When": {
+        "spacechase0.BackstoryQuestionsFramework/QuestionsAsked: {{Marlon}}": "{{ModId}}_Marnie",
+        "HasFlag |contains={{ModId}}_DateGil": false,
+        "HasFlag |contains={{ModId}}_DateWilly": false,
+        "HasFlag |contains={{ModId}}_DatePlayer": false
+      },
+      "Entries": {
+        "{{ModId}}_Marnie2": {
+          "ID": "{{ModId}}_Marnie2",
+          "Weight": 1,
+          "QuestionText": "{{i18n:BQF.Marnie.q2}}",
+          "AnswerText": "{{Random: {{i18n:BQF.Marnie.a1}} @@ {{i18n:BQF.Marnie.a2}} @@ {{i18n:BQF.Marnie.a3}} |inputSeparator=@@}}#$addmailreceived {{ModId}}_DateMarnie",
+          "FriendshipModifier": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.BackstoryQuestionsFramework/Questions",
+      "TargetField": [ "{{Marlon}}" ],
+      "When": {
+        "spacechase0.BackstoryQuestionsFramework/QuestionsAsked: {{Marlon}}": "{{ModId}}_Gil",
+        "HasFlag |contains={{ModId}}_DateMarnie": false,
+        "HasFlag |contains={{ModId}}_DateWilly": false,
+        "HasFlag |contains={{ModId}}_DatePlayer": false
+      },
+      "Entries": {
+        "{{ModId}}_Gil2": {
+          "ID": "{{ModId}}_Gil2",
+          "Weight": 1,
+          "QuestionText": "{{i18n:BQF.Gil.q2}}",
+          "AnswerText": "{{Random: {{i18n:BQF.Gil.a1}} @@ {{i18n:BQF.Gil.a2}} @@ {{i18n:BQF.Gil.a3}} |inputSeparator=@@}}#$addmailreceived {{ModId}}_DateGil",
+          "FriendshipModifier": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Marlon}}",
+      "Entries": {
+        //SPECIAL DIALOGUE
+        "Introduction": "{{i18n:Marlon.CharacterDialogue.001}}",
+        "Resort_Entering": "{{i18n:Marlon.CharacterDialogue.002}}",
+        "Resort_Leaving": "{{i18n:Marlon.CharacterDialogue.003}}",
+        "Resort_Shore": "$query {{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}#{{i18n:Marlon.CharacterDialogue.004}}|{{i18n:Resort_Shore}}",
+        "Resort_Chair": "$query {{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}#{{i18n:Marlon.CharacterDialogue.005}}|{{i18n:Resort_Chair}}",
+        "Resort_Bar": "{{i18n:Marlon.CharacterDialogue.006}}",
+        "Resort": "{{i18n:Marlon.CharacterDialogue.007}}",
+        "Custom_AdventurerSummit_62_5": "{{i18n:Marlon.CharacterDialogue.008}}",
+        //green rain
+        "GreenRain": "{{i18n:GreenRain_{{Random:{{Range: 0, 3}}}}}}",
+        "GreenRainFinished": "{{i18n:GreenRainFinished_{{Random:{{Range: 0, 3}}}}}}",
+        //movie
+        "MovieInvitation": "{{i18n:MovieInvitation_{{Random:{{Range: 0, 3}}}}}}",
+        "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+        "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek}}",
+        "RejectMovieTicket_Divorced": "{{i18n:RejectMovieTicket_Divorced}}",
+        "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie}}",
+        "RejectMovieTicket": "{{i18n:RejectMovieTicket}}",
+        //dating
+        "breakUp": "{{i18n:breakUp_{{Random:{{Range: 0, 3}}}}}}",
+        "dating_{{Marlon}}_memory_oneyear": "{{i18n:Dating_1_Year}}",
+        "RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable}}",
+        "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
+        "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
+        "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
+        "RejectBouquet": "{{i18n:RejectBouquet}}",
+        "AcceptBouquet": "{{i18n:AcceptBouquet}}",
+        "RejectBouquet_AlreadyAccepted_Engaged": "{{i18n:RejectBouquet_AlreadyAccepted_Engaged}}",
+        "RejectBouquet_AlreadyAccepted_Married": "{{i18n:RejectBouquet_AlreadyAccepted_Married}}",
+        "RejectBouquet_AlreadyAccepted": "{{i18n:RejectBouquet_AlreadyAccepted}}",
+        "RejectMermaidPendant_AlreadyAccepted_Engaged": "{{i18n:RejectMermaidPendant_AlreadyAccepted_Engaged}}",
+        "RejectMermaidPendant_AlreadyAccepted_Married": "{{i18n:RejectMermaidPendant_AlreadyAccepted_Married}}",
+        "RejectMermaidPendant_AlreadyAccepted": "{{i18n:RejectMermaidPendant_AlreadyAccepted}}",
+        //trashcan
+        "DumpsterDiveComment": "{{i18n:DumpsterDiveComment}}",
+        //slingshot
+        "HitBySlingshot": "{{i18n:HitBySlingshot}}",
+        //flower festival
+        "FlowerDance_Accept_Spouse": "{{i18n:FlowerDance_Accept_Spouse}}",
+        "FlowerDance_Accept": "{{i18n:FlowerDance_Accept}}",
+        "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",
+        //fair
+        "Fair_Judging": "{{i18n:Fair_Judging}}",
+        "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts}}",
+        "Fair_Judged_PlayerLost_Skipped": "{{i18n:Fair_Judged_PlayerLost_Skipped}}",
+        "Fair_Judged_PlayerLost": "{{i18n:Fair_Judged_PlayerLost}}",
+        "Fair_Judged_PlayerWon": "{{i18n:Fair_Judged_PlayerWon}}",
+        "Fair_Judged": "{{i18n:Fair_Judged}}",
+        //winter star
+        "WinterStar_GiveGift_Before_Spouse": "{{i18n:WinterStar_GiveGift_Before_Spouse}}",
+        "WinterStar_GiveGift_Before": "{{i18n:WinterStar_GiveGift_Before}}",
+        "WinterStar_GiveGift_After_Spouse": "{{i18n:WinterStar_GiveGift_After_Spouse}}",
+        "WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After}}",
+        "WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift}}",
+        //marriage
+        "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
+        "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",
+        "SpouseStardrop": "{{i18n:SpouseStardrop}}",
+        "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:RejectMermaidPendant_NeedHouseUpgrade}}",
+        "RejectMermaidPendant_NotDatable": "{{i18n:RejectMermaidPendant_NotDatable}}",
+        "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:RejectMermaidPendant_NpcWithSomeoneElse}}",
+        "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse}}",
+        "RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts}}",
+        "RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts}}",
+        "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+        "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
+        //divorced
+        "divorced": "{{i18n:divorced_{{Random:{{Range: 0, 3}}}}}}",
+        "RejectGift_Divorced": "{{i18n:RejectGift_Divorced}}",
+        "RejectMermaidPendant_Divorced": "{{i18n:RejectMermaidPendant_Divorced}}",
+        "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}",
+        //gifts
+        "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_(O)StardropTea}}",
+        "AcceptBirthdayGift_Positive": "{{i18n:AcceptBirthdayGift_Positive}}",
+        "AcceptBirthdayGift_Negative": "{{i18n:AcceptBirthdayGift_Negative}}",
+
+        //daily dialogue
+        "{{Weekday}}": "$query {{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}#{{i18n:Marlon.CharacterDialogue.{{Random:{{Range:13, 32}}}}}}#$e#{{i18n:{{Weekday}}_{{Random:{{Range:0,5}}}}}}|{{i18n:{{Weekday}}_{{Random:{{Range:0,5}}}}}}",
+        "{{Season}}_{{Weekday}}": "$query {{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}#{{i18n:Marlon.CharacterDialogue.{{Random:{{Range:53, 67}}}}}}#$e#{{i18n:{{Season}}_{{Weekday}}_{{Random:{{Range:0,5}}}}}}|{{i18n:{{Season}}_{{Weekday}}_{{Random:{{Range:0,5}}}}}}",
+
+        //SPRING DIALOGUE
+        "spring_1": "{{i18n:Marlon.CharacterDialogue.009}}",
+        "spring_12": "{{i18n:Marlon.CharacterDialogue.010}}",
+        "spring_23": "{{i18n:Marlon.CharacterDialogue.011}}",
+        "spring_28": "{{i18n:Marlon.CharacterDialogue.012}}",
+
+        //SUMMER DIALOGUE
+        "summer_1": "{{i18n:Marlon.CharacterDialogue.033}}",
+        "summer_10": "{{i18n:Marlon.CharacterDialogue.034}}",
+        "summer_28": "{{i18n:Marlon.CharacterDialogue.035}}",
+
+        //FALL DIALOGUE
+        "fall_1": "{{i18n:Marlon.CharacterDialogue.048}}",
+        "fall_15": "{{i18n:Marlon.CharacterDialogue.049}}",
+        "fall_26": "{{i18n:Marlon.CharacterDialogue.050}}",
+        "fall_27": "{{i18n:Marlon.CharacterDialogue.051}}",
+        "fall_28": "{{i18n:Marlon.CharacterDialogue.052}}",
+
+        //WINTER DIALOGUE
+        "winter_1": "{{i18n:Marlon.CharacterDialogue.068}}",
+        "winter_7": "{{i18n:Marlon.CharacterDialogue.069}}",
+        "winter_24": "{{i18n:Marlon.CharacterDialogue.070}}",
+        "winter_28": "{{i18n:Marlon.CharacterDialogue.071}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Marlon}}",
+      "When": {
+        "Spouse": "{{Marlon}}"
+      },
+      "Entries": {
+        //gifts
+        //loved
+        "AcceptGift_(O)244": "{{i18n:AcceptGift_(O)244}}",
+        "AcceptGift_(O)413": "{{i18n:AcceptGift_(O)413}}",
+        "AcceptGift_(O)437": "{{i18n:AcceptGift_(O)437}}",
+        "AcceptGift_(O)439": "{{i18n:AcceptGift_(O)439}}",
+        "AcceptGift_(O)680": "{{i18n:AcceptGift_(O)680}}",
+        "AcceptGift_(O)773": "{{i18n:AcceptGift_(O)773}}",
+
+        //liked
+        "AcceptGift_(O)205": "{{i18n:AcceptGift_(O)205}}",
+        "AcceptGift_(O)287": "{{i18n:AcceptGift_(O)287}}",
+        "AcceptGift_(O)288": "{{i18n:AcceptGift_(O)288}}",
+        "AcceptGift_(O)303": "{{i18n:AcceptGift_(O)303}}",
+        "AcceptGift_(O)346": "{{i18n:AcceptGift_(O)346}}",
+        "AcceptGift_(O)348": "{{i18n:AcceptGift_(O)348}}",
+        "AcceptGift_(O)422": "{{i18n:AcceptGift_(O)422}}",
+
+        //hated
+        "AcceptGift_(O)233": "{{i18n:AcceptGift_(O)233}}",
+        "AcceptGift_(O)283": "{{i18n:AcceptGift_(O)283}}",
+
+        //neutral
+        "AcceptGift_(O)184": "{{i18n:AcceptGift_(O)184}}",
+        "AcceptGift_(O)186": "{{i18n:AcceptGift_(O)186}}",
+        "AcceptGift_(O)286": "{{i18n:AcceptGift_(O)286}}",
+        "AcceptGift_(O)420": "{{i18n:AcceptGift_(O)420}}",
+        "AcceptGift_(O)424": "{{i18n:AcceptGift_(O)424}}",
+        "AcceptGift_(O)436": "{{i18n:AcceptGift_(O)436}}",
+        "AcceptGift_(O)438": "{{i18n:AcceptGift_(O)438}}",
+        "AcceptGift_(O)803": "{{i18n:AcceptGift_(O)803}}"
+      }
+    },
+    {
+      "LogName": "Summit Dialogue",
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_{{Marlon}}": "{{i18n:SummitEvent_Dialogue3_Marlon}}"
+      }
+    }
+  ]
+}

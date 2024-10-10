@@ -1,0 +1,211 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{Marlon}}": {
+          "DisplayName": "[LocalizedText Strings\\NPCNames:Marlon]",
+          "BirthSeason": "Winter",
+          "BirthDay": 19,
+          "HomeRegion": "Other",
+          "Language": "Default",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": true,
+          "LoveInterest": null,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "AlwaysShown",
+          "CanSocialize": true,
+          "CanReceiveGifts": true,
+          "CanGreetNearbyCharacters": true,
+          "CanCommentOnPurchasedShopItems": null,
+          "CanVisitIsland": true,
+          "IntroductionsQuest": false,
+          "ItemDeliveryQuests": true,
+          "PerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpouseAdopts": "PLAYER_HAS_FLAG Current {{ModId}}_HaveChildrenAdopted Received",
+          "SpouseWantsChildren": "PLAYER_HAS_FLAG Current {{ModId}}_HaveChildren Received",
+          "SpouseGiftJealousy": null,
+          "SpouseGiftJealousyFriendshipChange": -30,
+          "SpouseRoom": {
+            "MapAsset": "Maps/MarlonRoom",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": null,
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            },
+            "SpriteAnimationFrames": [
+              [ 0, 1500 ],
+              [ 18, 1500 ],
+              [ 19, 1500 ],
+              [ 17, 1500 ],
+              [ 22, 500 ],
+              [ 21, 500 ],
+              [ 22, 500 ],
+              [ 23, 500 ],
+              [ 22, 1500 ],
+              [ 24, 500 ],
+              [ 25, 500 ],
+              [ 26, 500 ],
+              [ 27, 500 ],
+              [ 26, 500 ],
+              [ 25, 500 ],
+              [ 24, 500 ],
+              [ 25, 500 ],
+              [ 26, 500 ],
+              [ 27, 500 ],
+              [ 26, 500 ],
+              [ 25, 500 ],
+              [ 24, 500 ],
+              [ 17, 1500 ],
+              [ 0, 4500 ]
+            ],
+            "SpriteAnimationPixelOffset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "SpouseFloors": [],
+          "SpouseWallpapers": [],
+          "DumpsterDiveFriendshipEffect": 5,
+          "DumpsterDiveEmote": null,
+          "FriendsAndFamily": {
+            "Wizard": "{{i18n:Friend}}",
+            "Gil": "{{i18n:InLaw}}",
+            "Gunther": "{{i18n:Friend}}",
+            "Lewis": "{{i18n:Friend}}",
+            "Krobus": "{{i18n:Friend}}",
+            "Marnie": "{{i18n:Friend}}",
+            "Camilla": "{{i18n:Friend}}",
+            "Linus": "{{i18n:Friend}}"
+          },
+          "FlowerDanceCanDance": true,
+          "WinterStarGifts": [
+            {
+              "Id": "{{ModId}}_GalaxySouls",
+              "Condition": "PLAYER_NPC_RELATIONSHIP Current {{Marlon}} Married",
+              "ItemId": "(O)896",
+              "MinStack": 5,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_IridiumBar",
+              "Condition": "PLAYER_NPC_RELATIONSHIP Current {{Marlon}} Married",
+              "ItemId": "(O)337",
+              "MinStack": 5,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_DragonTooth",
+              "Condition": "PLAYER_NPC_RELATIONSHIP Current {{Marlon}} Married",
+              "ItemId": "(O)852",
+              "MinStack": 5,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_OmniGeode",
+              "Condition": null,
+              "ItemId": "(O)749",
+              "MinStack": 5,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_Slime",
+              "Condition": null,
+              "ItemId": "(O)766",
+              "MinStack": 10,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_BatWing",
+              "Condition": null,
+              "ItemId": "(O)767",
+              "MinStack": 10,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_SolarEss",
+              "Condition": null,
+              "ItemId": "(O)768",
+              "MinStack": 10,
+              "MaxStack": -1
+            },
+            {
+              "Id": "{{ModId}}_VoidEss",
+              "Condition": null,
+              "ItemId": "(O)769",
+              "MinStack": 10,
+              "MaxStack": -1
+            }
+          ],
+          "WinterStarParticipant": true,
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "FlashShifter.StardewValleyExpandedCP_AdventureGuild",
+              "Condition": "{{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}",
+              "Location": "AdventureGuild",
+              "Tile": {
+                "X": 4,
+                "Y": 11
+              },
+              "Direction": "down"
+            },
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "AdventureGuild",
+              "Tile": {
+                "X": 5,
+                "Y": 11
+              },
+              "Direction": "down"
+            }
+          ],
+          "TextureName": null,
+          "Appearance": null,
+          "MugShotSourceRect": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true,
+          "BreathChestRect": null,
+          "BreathChestPosition": null,
+          "Shadow": null,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "ShakePortraits": [],
+          "KissSpriteIndex": 28,
+          "KissSpriteFacingRight": false,
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": 4000,
+          "HiddenProfileEmoteStartFrame": 24,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0,
+          "FormerCharacterNames": [],
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

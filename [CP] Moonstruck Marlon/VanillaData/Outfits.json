@@ -1,0 +1,164 @@
+{
+  "Changes": [
+    { //check randomization later
+      "LogName": "Load Base",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Portraits/Marlon, Characters/Marlon, Portraits/MarlonFay, Characters/MarlonFay",
+      "FromFile": "assets/{{TargetPathOnly}}/Marlon.png"
+    },
+    {
+      "LogName": "Load Seasonal Characters",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Marlon_Spring, Characters/Marlon_Winter, Characters/Marlon_Beach, Characters/MarlonFay_Spring, Characters/MarlonFay_Winter, Characters/MarlonFay_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+    },
+    {
+      "LogName": "Marlon's Physical Appearance Load",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
+      "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/{{TargetWithoutPath}}.png"
+    },
+    //begin overlays portraits
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
+      "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/Configs/{{Hair Color}}Hair.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
+      "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/Configs/{{FacialHairStyle}}{{Hair Color}}.png"
+    },
+    {
+      "LogName": "Dynamic Eyepatch",
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "Dynamic Eyepatch": true,
+        "Time": "{{Range: 0600, 1800}}"
+      },
+      "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
+      "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/Configs/{{Eyepatched}}.png"
+    },
+    {
+      "LogName": "Undynamic Eyepatch",
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "When": {
+        "Dynamic Eyepatch": false
+      },
+      "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
+      "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/Configs/{{Eyepatched}}.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
+      "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/Configs/{{Fringee}}{{Hair Color}}.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Characters/Marlon_Spring, Characters/Marlon_Winter, Characters/Marlon_Beach, Characters/MarlonFay_Spring, Characters/MarlonFay_Winter, Characters/MarlonFay_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Configs/{{Hair Color}}Hair.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Characters/Marlon_Spring, Characters/Marlon_Winter, Characters/Marlon_Beach, Characters/MarlonFay_Spring, Characters/MarlonFay_Winter, Characters/MarlonFay_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Configs/{{FacialHairStyle}}{{Hair Color}}.png"
+    },
+    {
+      "LogName": "Dynamic Eyepatch char load",
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "Dynamic Eyepatch": true,
+        "Time": "{{Range: 0600, 1800}}"
+      },
+      "Target": "Characters/Marlon_Spring, Characters/Marlon_Winter, Characters/Marlon_Beach, Characters/MarlonFay_Spring, Characters/MarlonFay_Winter, Characters/MarlonFay_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Configs/{{Eyepatched}}.png"
+    },
+    {
+      "LogName": "Undynamic Eyepatch char load",
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "When": {
+        "Dynamic Eyepatch": false
+      },
+      "Target": "Characters/Marlon_Spring, Characters/Marlon_Winter, Characters/Marlon_Beach, Characters/MarlonFay_Spring, Characters/MarlonFay_Winter, Characters/MarlonFay_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Configs/{{Eyepatched}}.png"
+    },
+    {
+      "LogName": "Marlon Appearance Data hopefully overwriting SVE",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": [ "Marlon", "Appearance" ],
+      "Entries": {
+        "{{ModId}}_MarlonSpring": {
+          "Id": "{{ModId}}_MarlonSpring",
+          "Condition": "SEASON spring summer",
+          "Sprite": "Characters/Marlon_Spring",
+          "Portrait": "Portraits/Marlon_Spring"
+        },
+        "{{ModId}}_MarlonWinter": {
+          "Id": "{{ModId}}_MarlonWinter",
+          "Condition": "SEASON fall winter",
+          "Sprite": "Characters/Marlon_Winter",
+          "Portrait": "Portraits/Marlon_Winter"
+        },
+        //beach
+        "{{ModId}}_MarlonBeach": {
+          "Id": "{{ModId}}_MarlonBeach",
+          "Sprite": "Characters/Marlon_Beach",
+          "Portrait": "Portraits/Marlon_Beach",
+          "IsIslandAttire": true
+        },
+        "{{ModId}}_MarlonFlower": {
+          "Id": "{{ModId}}_MarlonFlower",
+          "Portrait": "Portraits/Marlon_Flower",
+          "Condition": "IS_EVENT festival_spring24"
+        }
+      }
+    },
+    {
+      "LogName": "Marlon Appearance Data hopefully overwriting SVE",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": [ "{{Marlon}}", "Appearance" ],
+      "Entries": {
+        "{{ModId}}_MarlonSpring": {
+          "Id": "{{ModId}}_MarlonSpring",
+          "Condition": "SEASON spring summer",
+          "Sprite": "Characters/MarlonFay_Spring",
+          "Portrait": "Portraits/MarlonFay_Spring"
+        },
+        "{{ModId}}_MarlonWinter": {
+          "Id": "{{ModId}}_MarlonWinter",
+          "Condition": "SEASON fall winter",
+          "Sprite": "Characters/MarlonFay_Winter",
+          "Portrait": "Portraits/MarlonFay_Winter"
+        },
+        //beach
+        "{{ModId}}_MarlonBeach": {
+          "Id": "{{ModId}}_MarlonBeach",
+          "Sprite": "Characters/MarlonFay_Beach",
+          "Portrait": "Portraits/MarlonFay_Beach",
+          "IsIslandAttire": true
+        },
+        "{{ModId}}_MarlonFlower": {
+          "Id": "{{ModId}}_MarlonFlower",
+          "Portrait": "Portraits/MarlonFay_Flower",
+          "Condition": "IS_EVENT festival_spring24"
+        }
+      }
+    }
+  ]
+}

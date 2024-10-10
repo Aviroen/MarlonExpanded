@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="6">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles" width="128" height="176"/>
+ </tileset>
+ <layer id="12" name="Back" width="7" height="10">
+  <data encoding="csv">
+1404,1404,1404,1404,1404,1404,0,
+1436,1436,1436,1436,1436,1436,0,
+1468,1468,1468,1468,1468,1468,0,
+1273,1274,1273,1274,1273,1274,0,
+1305,1306,1305,1306,1305,1306,0,
+1337,1300,1301,1302,1303,1338,0,
+1305,1332,1333,1334,1335,1306,0,
+1337,1364,1365,1366,1367,1338,0,
+1305,1306,1305,1306,1305,1306,0,
+1305,1306,1305,1306,1305,1306,0
+</data>
+ </layer>
+ <layer id="11" name="Buildings" width="7" height="10">
+  <data encoding="csv">
+1404,1404,1404,1404,1404,1406,37,
+1436,1436,1436,580,581,1438,69,
+1468,1336,1468,612,613,1470,69,
+0,1368,0,644,645,1502,69,
+0,0,0,0,0,0,69,
+0,0,0,0,0,0,69,
+0,0,0,0,0,0,69,
+0,0,0,0,0,0,69,
+0,0,0,0,0,0,69,
+166,166,166,166,166,167,168
+</data>
+ </layer>
+ <layer id="9" name="Paths" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Front" width="7" height="10">
+  <data encoding="csv">
+789,790,791,792,757,0,0,
+821,822,823,0,0,0,0,
+0,0,0,0,0,930,0,
+0,0,0,0,0,962,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="AlwaysFront" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,965,0,0,0,0,
+0,0,997,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="1" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarlonRoom2&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarlonRoom1&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarlonRoom3&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Paths"/>
+ <objectgroup id="8" name="Front"/>
+</map>

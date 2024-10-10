@@ -1,0 +1,203 @@
+{
+  "Format": "2.3.0",
+  // C O N F I G
+  "ConfigSchema": {
+    "Hair Color": {
+      "AllowValues": "Brown, Blonde, Black, Gray",
+      "Default": "Gray",
+      "Section": "Appearance",
+      "Description": "Changes the overlay for Marlon's hair color."
+    },
+    "Marlon Physical Appearance": {
+      "AllowValues": "Old, Young, Nyapu",
+      "Default": "Young",
+      "Section": "Appearance",
+      "Description": "Affects whether Marlon has the old man nose, younger nose, or Nyapu-inspired style."
+    },
+    "Facial Hair": {
+      "AllowValues": "Mustache, Beard, Stubble, Beard Combo, None",
+      "Default": "Stubble",
+      "Section": "Appearance",
+      "Description": "Changes which facial hair settings you want, Beard Combo has both the mustache and Beard."
+    },
+    "Eyepatch": {
+      "AllowValues": "New Eyepatch, Old Eyepatch",
+      "Default": "New Eyepatch",
+      "Section": "Appearance",
+      "Description": "Changes the art for his eyepatch, have a new eyepatch or the old one."
+    },
+    "Dynamic Eyepatch": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Appearance",
+      "Description": "Whether or not Marlon will take his eyepatch off at home."
+    },
+    "Fringe": {
+      "AllowValues": "Left Fringe, Right Fringe, Both, None",
+      "Default": "Both",
+      "Section": "Appearance",
+      "Description": "Adds 'bangs' or 'fringes' for Marlon's hair."
+    },
+    "Spouse Room": {
+      "AllowValues": "Furnished, Unfurnished",
+      "Default": "Furnished",
+      "Section": "Content",
+      "Description": "Furnished has furniture and flavor text. Unfurnished is empty except for the floors and wallpaper."
+    },
+    "Marlon's Gender": {
+      "AlloweValues": "Male, Female",
+      "Default": "Male",
+      "Section": "Content",
+      "Description": "Changes dialogue and portraits of Marlon's gender. Still goes by the name 'Marlon'."
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "Marlon",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Value": "Marlon"
+    },
+    {
+      "Name": "Marlon",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Value": "MarlonFay"
+    },
+    {
+      "Name": "FacialHairStyle",
+      "When": { "Facial Hair": "Mustache" },
+      "Value": "Mustache"
+    },
+    {
+      "Name": "FacialHairStyle",
+      "When": { "Facial Hair": "Beard" },
+      "Value": "Beard"
+    },
+    {
+      "Name": "FacialHairStyle",
+      "When": { "Facial Hair": "Stubble" },
+      "Value": "Stubble"
+    },
+    {
+      "Name": "FacialHairStyle",
+      "When": { "Facial Hair": "Beard Combo" },
+      "Value": "Beard Combo"
+    },
+    {
+      "Name": "Fringee",
+      "When": { "Fringe": "Left Fringe" },
+      "Value": "Left Fringe"
+    },
+    {
+      "Name": "Fringee",
+      "When": { "Fringe": "Right Fringe" },
+      "Value": "Right Fringe"
+    },
+    {
+      "Name": "Fringee",
+      "When": { "Fringe": "Both" },
+      "Value": "Both"
+    },
+    {
+      "Name": "Eyepatched",
+      "When": { "Eyepatch": "New Eyepatch" },
+      "Value": "NewEyepatch"
+    },
+    {
+      "Name": "Eyepatched",
+      "When": { "Eyepatch": "Old Eyepatch" },
+      "Value": "NewEyepatch"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Monday" },
+      "Value": "Mon"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Tuesday" },
+      "Value": "Tue"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Wednesday" },
+      "Value": "Wed"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Thursday" },
+      "Value": "Thu"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Friday" },
+      "Value": "Fri"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Saturday" },
+      "Value": "Sat"
+    },
+    {
+      "Name": "Weekday",
+      "When": { "DayOfWeek": "Sunday" },
+      "Value": "Sun"
+    },
+    {
+      "Name": "gender",
+      "When": { "Marlon's Gender": "Male" },
+      "Value": "{{Lowercase: man}}"
+    },
+    {
+      "Name": "gender",
+      "When": { "Marlon's Gender": "Female" },
+      "Value": "{{Lowercase: lady}}"
+    }
+  ],
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "VanillaData/animationDescriptions.json, VanillaData/Dialogue.json, VanillaData/Festivals.json, VanillaData/Marlon.json, VanillaData/MarriageDialogue.json, VanillaData/Movies.json, VanillaData/Outfits.json, VanillaData/HeartEvents.json"
+    },
+    {
+      "Action": "Include",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "FromFile": "VanillaData/Schedule.json, VanillaData/MapEdit.json, VanillaData/GiftsInfo.json"
+    },
+    {
+      "Action": "Include",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "FromFile": "SVEData/Schedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/MarlonRoom",
+      "When": {
+        "Spouse Room": "Furnished"
+      },
+      "FromFile": "Assets/Maps/MarlonRoom.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/MarlonRoom",
+      "When": {
+        "Spouse Room": "Unfurnished"
+      },
+      "FromFile": "Assets/Maps/MarlonRoomEmpty.tmx"
+    },
+    { //blank loads so that i can target edit
+      "LogName": "BlankLoads",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Dialogue/Marlon, Characters/Dialogue/MarriageDialogueMarlon, Characters/schedules/Marlon, Strings/Schedules/Marlon, Characters/Dialogue/MarriageDialogueMarlonFay, Data/Events/AdventureGuild",
+      "FromFile": "VanillaData/Blank.json"
+    }
+  ]
+}

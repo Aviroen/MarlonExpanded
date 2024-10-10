@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/{{Marlon}}",
+      "FromFile": "VanillaData/Blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{Marlon}}",
+      "Entries": { //time mapname xcoord ycoord facing animation stringdialogue
+        "spring": "610 Mountain 78 20 3 Marlon_sing/1200 AdventureGuild 4 11 2/2000 Mountain 53 6 2 Marlon_swordswing/2400 AdventureGuild 4 11 2",
+        "summer": "610 Mountain 78 20 3 Marlon_sword/1200 AdventureGuild 4 11 2/2000 Mountain 53 6 2 Marlon_swordswing/2400 AdventureGuild 4 11 2",
+        "fall": "GOTO spring",
+        "winter": "GOTO summer",
+        "NightMarket": "610 AdventureGuild 4 11 2/1700 Beach 39 24 2",
+        "rain": "610 Mountain 60 11 2 Marlon_sing/1200 AdventureGuild 4 11 2",
+        "rain2": "GOTO rain",
+        "GreenRain": "610 Mountain 53 6 2 Marlon_swordswing/1200 AdventureGuild 4 11 2",
+        "marriage_Mon": "1200 AdventureGuild 4 11 2/2200 bed",
+        "marriage_Tue": "GOTO marriage_Mon",
+        "marriage_Wed": "GOTO marriage_Mon",
+        "marriage_Thu": "GOTO marriage_Mon"
+      }
+    }
+  ]
+}

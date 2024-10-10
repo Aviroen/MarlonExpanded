@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/AdventureGuild",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 2,
+            "Y": 11
+          },
+          "Layer": "Buildings",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 2,
+            "Y": 10
+          },
+          "Layer": "Front",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 2,
+            "Y": 11
+          },
+          "Layer": "Front",
+          "SetIndex": "885"
+        }
+      ]
+    }
+  ]
+}

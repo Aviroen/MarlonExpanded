@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Fields": {
+        "Deluxe Coop": {
+          "CustomFields": {
+            "Aviroen.AtraAntiCrow": "true"
+          }
+        }
+      }
+    }
+  ]
+}

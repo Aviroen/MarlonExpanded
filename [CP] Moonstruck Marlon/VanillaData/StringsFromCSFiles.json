@@ -1,0 +1,11 @@
+{
+  {
+    "Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "Entries": {
+      "MarlonRoom1": "{{i18n:SpouseRoom.1}}",
+      "MarlonRoom2": "{{i18n:SpouseRoom.2}}",
+      "MarlonRoom3": "{{i18n:SpouseRoom.3}}"
+    }
+  }
+}
