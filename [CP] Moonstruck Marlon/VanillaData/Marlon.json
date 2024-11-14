@@ -34,7 +34,7 @@
           "SpouseGiftJealousy": null,
           "SpouseGiftJealousyFriendshipChange": -30,
           "SpouseRoom": {
-            "MapAsset": "Maps/MarlonRoom",
+            "MapAsset": "MarlonRoom",
             "MapSourceRect": {
               "X": 0,
               "Y": 0,

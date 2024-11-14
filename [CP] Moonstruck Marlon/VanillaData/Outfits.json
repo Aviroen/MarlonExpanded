@@ -21,7 +21,8 @@
       "Target": "Portraits/Marlon_Spring, Portraits/Marlon_Winter, Portraits/Marlon_Beach, Portraits/MarlonFay_Spring, Portraits/MarlonFay_Winter, Portraits/MarlonFay_Beach, Portraits/Marlon_Flower, Portraits/MarlonFay_Flower",
       "FromFile": "assets/{{TargetPathOnly}}/{{Marlon Physical Appearance}}/{{TargetWithoutPath}}.png"
     },
-    //begin overlays portraits
+
+//begin overlays portraits
     {
       "Action": "EditImage",
       "PatchMode": "Overlay",
@@ -38,7 +39,7 @@
       "LogName": "Dynamic Eyepatch",
       "Action": "EditImage",
       "PatchMode": "Overlay",
-      "Update": "OnLocationChange",
+      //"Update": "OnLocationChange",
       "When": {
         "Dynamic Eyepatch": true,
         "Time": "{{Range: 0600, 1800}}"
@@ -78,7 +79,7 @@
       "LogName": "Dynamic Eyepatch char load",
       "Action": "EditImage",
       "PatchMode": "Overlay",
-      "Update": "OnLocationChange",
+      //"Update": "OnLocationChange",
       "When": {
         "Dynamic Eyepatch": true,
         "Time": "{{Range: 0600, 1800}}"
@@ -96,6 +97,7 @@
       "Target": "Characters/Marlon_Spring, Characters/Marlon_Winter, Characters/Marlon_Beach, Characters/MarlonFay_Spring, Characters/MarlonFay_Winter, Characters/MarlonFay_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Configs/{{Eyepatched}}.png"
     },
+
     {
       "LogName": "Marlon Appearance Data hopefully overwriting SVE",
       "Action": "EditData",

@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "{{ModId}}_playerControlrepro/": "continue/0 0/farmer 0 0 0 Marlon 0 0 0/addconversationtopic {{ModId}}_ControlRepro 1/speak Marlon \"Well g'day.\"/skippable/switchEvent {{ModId}}_playerControl1",
+        "{{ModId}}_playerControl1": "pause 300/speak Marlon \"Avi is too lazy to do i18n strings.\"/pause 300/addmailreceived {{Modid}}_playercontrolexplored/playerControl jellies",
+        //continues to this event once playercontrol is skipped?
+        "{{ModId}}_playerControl2/e {{ModId}}_playerControlrepro/n {{ModId}}_playercontrolexplored": "continue/0 0/farmer 0 0 0 Marlon 0 0 0/skippable/pause 300/speak Marlon \"This is the third dialogue box.\"/pause 300/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Marlon}}",
+      "Entries": {
+        "{{ModId}}_ControlRepro": "This is a string inside of the chaos."
+      }
+    }
+  ]
+}

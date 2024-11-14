@@ -160,7 +160,7 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "VanillaData/animationDescriptions.json, VanillaData/Dialogue.json, VanillaData/Festivals.json, VanillaData/Marlon.json, VanillaData/MarriageDialogue.json, VanillaData/Movies.json, VanillaData/Outfits.json, VanillaData/HeartEvents.json"
+      "FromFile": "VanillaData/animationDescriptions.json, VanillaData/Dialogue.json, VanillaData/Festivals.json, VanillaData/Marlon.json, VanillaData/MarriageDialogue.json, VanillaData/Movies.json, VanillaData/Outfits.json, VanillaData/HeartEvents.json, VanillaData/StringsFromCSFiles.json"
     },
     {
       "Action": "Include",

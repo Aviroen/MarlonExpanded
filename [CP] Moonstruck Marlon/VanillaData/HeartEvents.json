@@ -2,11 +2,11 @@
   "Changes": [
     {
       "Action": "EditData",
-      "Target": "Data/Buildings",
+      "Target": "Data/Characters",
       "Fields": {
-        "Deluxe Coop": {
+        "Abigail": {
           "CustomFields": {
-            "Aviroen.AtraAntiCrow": "true"
+            "Aviroen.GSQBaby": "true"
           }
         }
       }
