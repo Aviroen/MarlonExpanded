@@ -10,6 +10,13 @@
           }
         }
       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Locations",
+      "Entries": {
+        "DoorUnlock_NotFriend_Alex": "You're dumb."
+      }
     }
   ]
 }

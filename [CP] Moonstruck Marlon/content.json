@@ -45,7 +45,7 @@
       "Description": "Furnished has furniture and flavor text. Unfurnished is empty except for the floors and wallpaper."
     },
     "Marlon's Gender": {
-      "AlloweValues": "Male, Female",
+      "AllowValues": "Male, Female",
       "Default": "Male",
       "Section": "Content",
       "Description": "Changes dialogue and portraits of Marlon's gender. Still goes by the name 'Marlon'."
